@@ -1,3 +1,11 @@
+import { products } from "../product-data";
+import CartList from "../CartList";
+
 export default function CartPage() {
-  return <h1>Shopping Cart</h1>
+  return (
+    <div>
+      <p>Shopping Cart</p>
+      <CartList products={products} />
+    </div>
+  )
 }
